@@ -107,7 +107,7 @@ providers that it uses.
 The extra dependencies for the `:pallet` profile are:
 
 ```clj
-[org.cloudhoist/pallet-jclouds "1.5.2"]
+[com.palletops/pallet-jclouds "1.5.3"]
 [org.jclouds/jclouds-all "1.5.5"]
 [org.jclouds.driver/jclouds-slf4j "1.6.0"]
 [org.jclouds.driver/jclouds-sshj "1.6.0"]
