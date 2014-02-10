@@ -109,8 +109,8 @@ The extra dependencies for the `:pallet` profile are:
 ```clj
 [org.cloudhoist/pallet-jclouds "1.5.2"]
 [org.jclouds/jclouds-all "1.5.5"]
-[org.jclouds.provider/jclouds-slf4j "1.5.5"]
-[org.jclouds.provider/jclouds-sshj "1.5.5"]
+[org.jclouds.driver/jclouds-slf4j "1.6.0"]
+[org.jclouds.driver/jclouds-sshj "1.6.0"]
 ```
 
 We also need to tell pallet what sort of nodes we want.  We can do this in the
