@@ -140,7 +140,7 @@ This will create a `~/.pallet/services/aws.clj` file containing the keys.
 We can now start a virtual machine:
 
 ```
-lein pallet up --phases install
+lein with-profile +pallet pallet up --phases install
 ```
 
 ## Adding a Deploy from Leiningen Built Jars
@@ -215,7 +215,7 @@ Assuming we have a "0.1.0" release, deployed with `lein deploy`, we can use that
 artifact with:
 
 ```
-lein pallet up --phases deploy :from-maven-repo
+lein with-profile +pallet pallet up --phases deploy :from-maven-repo
 ```
 
 By default, the deploy will use the `:repositories` defined in your leiningen
