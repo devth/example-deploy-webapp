@@ -53,7 +53,7 @@ profile, so they do not interfere with the base project dependencies.
                  [ring/ring-jetty-adapter "1.1.6"]
                  [compojure "1.1.3"]]
   :plugins [[lein-ring "0.8.5"]
-            [com.palletops/pallet-lein "0.6.0-beta.9"]]
+            [com.palletops/pallet-lein "0.8.0-alpha.1"]]
   :ring {:handler webapp.core/routes}
   :profiles {:pallet {:dependencies
                       [[com.palletops/pallet "0.8.0-beta.9"]
